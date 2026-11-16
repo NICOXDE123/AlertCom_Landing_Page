@@ -1,0 +1,2 @@
+Copia aquí el APK real de AlertCom y nómbralo alertcom.apk.
+La ruta debe quedar: assets/alertcom.apk

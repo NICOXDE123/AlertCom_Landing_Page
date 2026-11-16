@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AlertCom: reporta, ubica y ayuda a mejorar los problemas viales de tu comunidad.">
+  <meta name="theme-color" content="#0b1f3a">
+  <title>AlertCom | Reporta. Ubica. Mejora.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="inicio">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="AlertCom, inicio">
+        <span class="brand-mark">A</span><span>ALERT<span class="brand-accent">COM</span></span>
+      </a>
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#capturas">Vistas de la app</a>
+        <a href="#funciones">Funcionalidades</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <a href="#nosotros">Proyecto</a>
+        <a class="nav-cta" href="#descargar">Descargar app <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section">
+      <div class="hero-glow"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <span class="eyebrow"><span class="pulse"></span> TECNOLOGÍA PARA TU COMUNIDAD</span>
+          <h1>Calles mejores<br>comienzan con <span>un reporte.</span></h1>
+          <p class="hero-lead">Con AlertCom puedes informar sobre baches y problemas viales de tu entorno, compartir su ubicación y seguir el estado de tus reportes.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#descargar">Conoce la aplicación <span>→</span></a>
+            <a class="button button-ghost" href="#como-funciona">Cómo funciona</a>
+          </div>
+          <div class="hero-note"><span class="note-icon">✓</span> Tu comunidad participa. Tu ciudad mejora.</div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="visual-orbit orbit-one"></div>
+          <div class="visual-orbit orbit-two"></div>
+          <div class="phone">
+            <div class="phone-top"><span>9:41</span><span>●●● ▰</span></div>
+            <div class="app-screen">
+              <div class="app-heading"><div><small>Bienvenido a</small><strong>AlertCom</strong></div><span class="avatar">A</span></div>
+              <div class="map-preview">
+                <div class="map-road road-a"></div><div class="map-road road-b"></div>
+                <div class="map-road road-c"></div><div class="map-block block-a"></div><div class="map-block block-b"></div>
+                <span class="map-pin pin-a">!</span><span class="map-pin pin-b">!</span><span class="map-pin pin-c">!</span>
+                <span class="map-label">Reportes cercanos</span>
+              </div>
+              <div class="app-row"><strong>Reportes recientes</strong><small>Ver todos</small></div>
+              <div class="report-card"><span class="report-icon">!</span><div><strong>Bache en la vía</strong><small>Reporte ciudadano · Cerca de ti</small></div><span class="status-dot"></span></div>
+              <div class="report-card"><span class="report-icon cyan">⌖</span><div><strong>Problema vial</strong><small>En seguimiento</small></div><span class="status-dot amber"></span></div>
+              <div class="app-add">＋</div>
+              <div class="app-tabs"><span>⌂<small>Inicio</small></span><span>▤<small>Reportes</small></span><span>♙<small>Perfil</small></span></div>
+            </div>
+          </div>
+          <div class="floating-card float-top"><span class="float-check">✓</span><div><strong>Reporte registrado</strong><small>Tu aviso cuenta</small></div></div>
+          <div class="floating-card float-bottom"><span class="float-location">⌖</span><div><strong>Ubicación</strong><small>Problemas cerca de ti</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section screenshots-section" id="capturas">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">CONOCE ALERTCOM POR DENTRO</span>
+          <h2>Una experiencia pensada para <span>cuidar el camino.</span></h2>
+          <p>Estas son algunas pantallas reales de la aplicación: consulta el mapa de reportes y revisa las recomendaciones de seguridad antes de informar.</p>
+        </div>
+        <div class="screenshots-grid">
+          <article class="screenshot-card reveal">
+            <div class="screenshot-frame"><img src="assets/alertcom-mapa.jpeg" alt="Pantalla principal de AlertCom con mapa de Temuco, estados de reportes y botón para reportar un bache" loading="lazy"></div>
+            <div class="screenshot-caption"><span class="screen-number">01</span><div><h3>Mapa y reportes</h3><p>Visualiza los reportes en el mapa, revisa su estado y accede a la opción para informar un bache.</p></div></div>
+          </article>
+          <article class="screenshot-card reveal">
+            <div class="screenshot-frame"><img src="assets/alertcom-seguridad.jpeg" alt="Aviso de seguridad vial de AlertCom con instrucciones para detenerse en un lugar seguro antes de reportar" loading="lazy"></div>
+            <div class="screenshot-caption"><span class="screen-number">02</span><div><h3>Seguridad vial primero</h3><p>Antes de realizar un reporte, AlertCom recuerda detenerse en un lugar seguro y no utilizar la aplicación mientras se conduce.</p></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-inner"><span>UNA HERRAMIENTA PARA</span><strong>Ciudadanos</strong><i></i><strong>Comunidades</strong><i></i><strong>Gestión municipal</strong></div>
+    </section>
+
+    <section class="section features-section" id="funciones">
+      <div class="container">
+        <div class="section-heading reveal"><span class="eyebrow">¿QUÉ PUEDES HACER?</span><h2>Tu ciudad, más cerca<br>de una <span>solución.</span></h2><p>AlertCom facilita la comunicación de problemas viales mediante herramientas sencillas y accesibles.</p></div>
+        <div class="feature-grid">
+          <article class="feature-card reveal"><div class="feature-icon blue">⌖</div><h3>Reporta con ubicación</h3><p>Registra un problema vial y comparte su ubicación para ayudar a identificar dónde ocurre.</p></article>
+          <article class="feature-card reveal"><div class="feature-icon violet">▧</div><h3>Agrega fotografías</h3><p>Acompaña tu reporte con imágenes y detalles que permitan comprender mejor el problema.</p></article>
+          <article class="feature-card reveal"><div class="feature-icon cyan">▤</div><h3>Consulta tus reportes</h3><p>Revisa los reportes que has realizado y consulta la información de cada uno.</p></article>
+          <article class="feature-card reveal"><div class="feature-icon orange">◷</div><h3>Sigue su estado</h3><p>Mantente informado sobre las actualizaciones y el avance de tus reportes.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section how-section" id="como-funciona">
+      <div class="container how-grid">
+        <div class="how-copy reveal"><span class="eyebrow">SENCILLO Y DIRECTO</span><h2>Reportar es el<br>primer paso para <span>mejorar.</span></h2><p>La aplicación está pensada para que los ciudadanos puedan comunicar situaciones viales de manera clara.</p><a class="text-link" href="#descargar">Descubre AlertCom <span>→</span></a></div>
+        <div class="steps">
+          <article class="step reveal"><span>01</span><div><h3>Identifica el problema</h3><p>Encuentra un bache u otra situación vial que necesite atención.</p></div></article>
+          <article class="step reveal"><span>02</span><div><h3>Crea tu reporte</h3><p>Agrega una descripción, fotografías y la ubicación correspondiente.</p></div></article>
+          <article class="step reveal"><span>03</span><div><h3>Consulta el seguimiento</h3><p>Revisa tus reportes y sus cambios de estado desde la aplicación.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section section" id="nosotros">
+      <div class="container about-panel reveal">
+        <div><span class="eyebrow">SOBRE EL PROYECTO</span><h2>La participación ciudadana también construye ciudad.</h2></div>
+        <p>AlertCom es una propuesta tecnológica orientada al reporte ciudadano de problemas viales. Busca acercar a las personas a los procesos de comunicación y seguimiento de incidencias en su entorno.</p>
+      </div>
+    </section>
+
+    <section class="section download-section" id="descargar">
+      <div class="container download-panel reveal">
+        <div class="download-decoration"></div>
+        <div class="download-content"><span class="eyebrow">ALERTCOM EN TU BOLSILLO</span><h2>Haz que tu reporte<br>sea parte del cambio.</h2><p>Descubre la aplicación móvil y participa en el cuidado de tu comunidad.</p><a class="button button-light" id="download-link" href="assets/alertcom.apk" download>Descargar aplicación <span>↓</span></a><small class="download-hint" id="download-hint">Aplicación Android · Archivo APK</small></div>
+        <div class="download-symbol" aria-hidden="true"><div class="symbol-ring">A<span>+</span></div><div class="symbol-caption">REPORTA · UBICA · MEJORA</div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><a class="brand footer-brand" href="#inicio"><span class="brand-mark">A</span><span>ALERT<span class="brand-accent">COM</span></span></a><p>Reporta. Ubica. Mejora.</p><span class="copyright">© <span id="year"></span> AlertCom. Proyecto tecnológico.</span></div>
+  </footer>
+  <a class="back-top" href="#inicio" aria-label="Volver arriba">↑</a>
+</body>
+</html>
