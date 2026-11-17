@@ -6,6 +6,10 @@
 - `script.js`: menú móvil, animaciones y año automático.
 - `assets/alertcom-mapa.jpeg`: captura de la pantalla principal y mapa.
 - `assets/alertcom-seguridad.jpeg`: captura del aviso de seguridad vial.
+- `assets/alertcom-logo.jpeg`: logotipo de AlertCom con el lema, usado en la sección de descarga.
+- `assets/alertcom-icono.jpeg`: ícono original de la aplicación.
+- `assets/alertcom-icono.png`: ícono con esquinas transparentes, usado en el menú y el pie de página.
+- `assets/alertcom-favicon.png` y `assets/alertcom-apple-touch.png`: íconos para el navegador y dispositivos Apple.
 - `assets/alertcom.apk`: aquí debes colocar el APK real cuando esté listo.
 
 ## Probar en tu computador
